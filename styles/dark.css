@@ -4,9 +4,52 @@
   переключая тему
 */
 
+
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  background: url(../images/cover-image-dark.png) no-repeat center / cover;
+  background-attachment: fixed;
+  --text-focus-color: #DB00FF;
+  --background-accent-color: #FF0070;
+  --text-h2-color: #FF0070;
+  --accent-text-color: #000028;
+  --text-color: #F1B2CE;
+  --menu-text-color: #FF0070;
+  --button-border-active: 1px solid #FF0070;
+  --button-border-hover: 1px solid #ff006f66;
+  --button-border-focus: 1px solid #FF0070;
+  --shadow-color: #FF0070;
+  --decoration-color: #ff0070;
+  --text-link-shadow: 2px 2px 0 var(--shadow-color);
+  --text-link-border-focus: 1px solid var(--text-color);
+  --header__decoration: inline-block;
 }
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-focus-color: #DB00FF;
+    --background-accent-color: #FF0070;
+    --text-h2-color: #FF0070;
+    --accent-text-color: #000028;
+    --text-color: #F1B2CE;
+    --menu-text-color: #FF0070;
+    --button-border-active: 1px solid #FF0070;
+    --button-border-hover: 1px solid #ff006f66;
+    --button-border-focus: 1px solid #FF0070;
+    --shadow-color: #FF0070;
+    --decoration-color: #ff0070;
+    --text-link-shadow: 2px 2px 0 var(--shadow-color);
+    --text-link-border-focus: 1px solid var(--text-color);
+    --header__decoration: inline-block;
+    }
+
+    .page {
+    background: url(../images/cover-image-dark.png) no-repeat center / cover;
+    background-attachment: fixed;
+    }
+}
+
