@@ -1,27 +1,22 @@
-
-
 @media (prefers-color-scheme: light) {
   :root {
-    --text-focus-color: #FFC2E6;
-    --background-accent-color: #FF8DCB;
+    --background-page-image: url(../images/cover-image-light.png);
+    --background-page-color: #fff1f7;
+    --text-focus-color: #ffc2e6;
+    --background-accent-color: #ff8dcb;
     --text-h2-color: #353430;
     --accent-text-color: #353430;
-    --text-color:#353430;
+    --text-color: #353430;
     --menu-text-color: #353430;
     --button-border-active: 1px solid #353430;
     --button-border-hover: 1px solid #35343066;
     --button-border-focus: 1px solid #353430;
-    --shadow-color: #FF8DCB;
+    --shadow-color: #ff8dcb;
     --decoration-color: #353430;
     --text-link-shadow: 2px 2px 0 var(--shadow-color);
     --text-link-border-focus: 1px solid var(--text-color);
-    --header__decoration: none;
-    }
-
-    .page {
-      background: url(../images/cover-image-light.png) no-repeat center / cover;
-      background-attachment: fixed;
-    }
+    --header-decoration: none;
+  }
 }
 
 .page.theme_light {
@@ -29,28 +24,20 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  background: url(../images/cover-image-light.png) no-repeat center / cover;
-  background-attachment: fixed;
-  --text-focus-color: #FFC2E6;
-  --background-accent-color: #FF8DCB;
+  --background-page-image: url(../images/cover-image-light.png);
+  --background-page-color: #fff1f7;
+  --text-focus-color: #ffc2e6;
+  --background-accent-color: #ff8dcb;
   --text-h2-color: #353430;
   --accent-text-color: #353430;
-  --text-color:#353430;
+  --text-color: #353430;
   --menu-text-color: #353430;
   --button-border-active: 1px solid #353430;
   --button-border-hover: 1px solid #35343066;
   --button-border-focus: 1px solid #353430;
-  --shadow-color: #FF8DCB;
+  --shadow-color: #ff8dcb;
   --decoration-color: #353430;
   --text-link-shadow: 2px 2px 0 var(--shadow-color);
-  --text-link-border-focus: 1px solid var(--text-color); 
-  --header__decoration: none;
-}
-
-.page.theme_light .header__decoration{
-  display: none;
-}
-
-.page.theme_light .header__decoration{
-  display: none;
+  --text-link-border-focus: 1px solid var(--text-color);
+  --header-decoration: none;
 }

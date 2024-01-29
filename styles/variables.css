@@ -4,23 +4,25 @@
 
 */
 
-:root{
-  --text-focus-color: #DB00FF;
-  --background-accent-color: #FF0070;
-  --text-h2-color: #FF0070;
+:root {
+  --background-page-image: url(../images/cover-image-dark.png);
+  --background-page-color: #000028;
+  --text-focus-color: #db00ff;
+  --background-accent-color: #ff0070;
+  --text-h2-color: #ff0070;
   --accent-text-color: #000028;
-  --text-color: #F1B2CE;
-  --menu-text-color: #FF0070;
-  --button-border-active: 1px solid #FF0070;
+  --text-color: #f1b2ce;
+  --menu-text-color: #ff0070;
+  --button-border-active: 1px solid #ff0070;
   --button-border-hover: 1px solid #ff006f66;
-  --button-border-focus: 1px solid #FF0070;
-  --shadow-color: #FF0070;
-  --decoration-border-color: #ff0070;
+  --button-border-focus: 1px solid #ff0070;
+  --shadow-color: #ff0070;
+  --decoration-color: #ff0070;
   --text-link-shadow: 2px 2px 0 var(--shadow-color);
   --text-link-border-focus: 1px solid var(--text-color);
   --text-font-family: "IBM Plex Mono", serif;
   --text-font-size: 18px;
   --pc-and-tab-page-padding: 20px;
   --mobile-page-padding: 10px;
-  --header__decoration: inline-block;
+  --header-decoration: inline-block;
 }
